@@ -17,7 +17,6 @@ class Tracks extends Component {
                             <h3 className="text-center mb-4">{ heading_value }</h3>
                             <div className="row">
                                 { track_list.map((item)=>{
-                                    console.log(item)
                                     return <Track key={item.track.track_id} track={item.track} />
                                 }) }
                             </div>
